@@ -6,4 +6,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/rehan-rh/leetcode-solutions/tree/main/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [1280-students-and-examinations](https://github.com/rehan-rh/leetcode-solutions/tree/master/1280-students-and-examinations) |
+| [1934-confirmation-rate](https://github.com/rehan-rh/leetcode-solutions/tree/main/1934-confirmation-rate/) | Medium |
 <!---LeetCode Topics End-->

@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/rehan-rh/leetcode-solutions/tree/main/0570-managers-with-at-least-5-direct-reports/) | Medium |
 | [0620-not-boring-movies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0620-not-boring-movies/) | Easy |
 | [1075-project-employees-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/1075-project-employees-i/) | Easy |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/1141-user-activity-for-the-past-30-days-i/) | Easy |
 | [1174-immediate-food-delivery-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/1174-immediate-food-delivery-ii/) | Medium |
 | [1193-monthly-transactions-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/1193-monthly-transactions-i/) | Medium |
 | [1211-queries-quality-and-percentage](https://github.com/rehan-rh/leetcode-solutions/tree/main/1211-queries-quality-and-percentage/) | Easy |

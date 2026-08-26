@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
+| [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/rehan-rh/leetcode-solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/rehan-rh/leetcode-solutions/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
@@ -118,11 +119,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0001-two-sum/) | Easy |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 ## Quicksort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -139,8 +142,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 <!---LeetCode Topics End-->

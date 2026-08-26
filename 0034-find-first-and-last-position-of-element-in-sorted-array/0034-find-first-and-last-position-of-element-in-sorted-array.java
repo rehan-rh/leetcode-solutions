@@ -1,60 +1,56 @@
 class Solution {
-    public int sp(int nums[], int x)
+    int fo(int nums[], int t)
     {
         int l = 0;
         int h = nums.length-1;
-        int res = -1;
+        int fo = -1;
         while(l<=h)
         {
             int mid = l+(h-l)/2;
-            if(nums[mid]==x)
+            if(nums[mid]==t)
             {
-                res = mid;
+                fo = mid;
                 h = mid-1;
             }
-            else if (x<nums[mid])
-            {
-                h = mid-1;
-            }
-            else
+            else if(nums[mid]<t)
             {
                 l = mid+1;
             }
+            else
+            {
+                h = mid-1;
+            }
         }
-        return res;
+        return fo;
     }
-    public int ep(int nums[], int x)
+    int lo(int nums[], int t)
     {
         int l = 0;
         int h = nums.length-1;
-        int res = -1;
+        int lo = -1;
         while(l<=h)
         {
             int mid = l+(h-l)/2;
-            if(nums[mid]==x)
+            if(nums[mid]==t)
             {
-                res = mid;
+                lo = mid;
                 l = mid+1;
             }
-            else if (x<nums[mid])
+            else if(nums[mid]<t)
             {
-                h = mid-1;
+                l = mid+1;
             }
             else
             {
-                l = mid+1;
+                h = mid-1;
             }
         }
-        return res;
+        return lo;
     }
     public int[] searchRange(int[] nums, int target) {
-        int sp = sp(nums, target);
-        if(sp==-1) return new int[]{-1, -1};
-        int ep = ep(nums, target);
-        return new int[]{sp, ep};
+        int fo = fo(nums, target);
+        if(fo==-1) return new int[]{-1, -1};
+        int lo = lo(nums, target);
+        return new int[]{fo, lo};
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

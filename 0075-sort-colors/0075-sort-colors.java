@@ -2,9 +2,9 @@ class Solution {
     public void sortColors(int[] nums) {
         int n = nums.length;
         int l = 0;
-        int r = n-1;
         int m = 0;
-        while(m<=r)
+        int h = n-1;
+        while(m<=h)
         {
             if(nums[m]==0)
             {
@@ -20,16 +20,11 @@ class Solution {
             }
             else
             {
-                int temp = nums[r];
-                nums[r] = nums[m];
+                int temp = nums[h];
+                nums[h] = nums[m];
                 nums[m] = temp;
-                r--;
+                h--;
             }
         }
-        
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

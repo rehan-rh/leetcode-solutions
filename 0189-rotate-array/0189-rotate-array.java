@@ -1,24 +1,20 @@
 class Solution {
-    void f(int a[], int l, int r)
+    void f(int l, int h, int nums[])
     {
-        while(l<r)
+        while(l<h)
         {
-            int temp = a[l];
-            a[l] = a[r];
-            a[r] = temp;
+            int temp = nums[l];
+            nums[l] = nums[h];
+            nums[h] = temp;
             l++;
-            r--;
+            h--;
         }
     }
     public void rotate(int[] nums, int k) {
         int n = nums.length;
         k = k%n;
-        f(nums, 0, n-1);
-        f(nums, 0, k-1);
-        f(nums, k, n-1);
+        f(0, n-1, nums);
+        f(0, k-1, nums);
+        f(k, n-1, nums);
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

@@ -8,7 +8,8 @@ class Solution {
             if(nums[mid]==target) return mid;
             if(nums[l]<=nums[mid])
             {
-                if(target>=nums[l] && target<nums[mid]){
+                if(target>=nums[l] && target<=nums[mid])
+                {
                     h = mid-1;
                 }
                 else
@@ -18,7 +19,8 @@ class Solution {
             }
             else
             {
-                if(target>nums[mid] && target<=nums[h]){
+                if(target>=nums[mid] && target<=nums[h])
+                {
                     l = mid+1;
                 }
                 else
@@ -30,7 +32,3 @@ class Solution {
         return -1;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

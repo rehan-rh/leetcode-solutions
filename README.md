@@ -86,4 +86,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/rehan-rh/leetcode-solutions/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 <!---LeetCode Topics End-->

@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/rehan-rh/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/rehan-rh/leetcode-solutions/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rehan-rh/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0031-next-permutation](https://github.com/rehan-rh/leetcode-solutions/tree/main/0031-next-permutation/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 ## Math
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0015-3sum/) | Medium |
 | [0056-merge-intervals](https://github.com/rehan-rh/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0088-merge-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 ## Quicksort

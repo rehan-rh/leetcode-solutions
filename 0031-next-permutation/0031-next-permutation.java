@@ -1,5 +1,5 @@
 class Solution {
-    void reverse(int l, int h, int nums[])
+    void reverse(int l ,int h, int nums[])
     {
         while(l<h)
         {
@@ -11,17 +11,16 @@ class Solution {
         }
     }
     public void nextPermutation(int[] nums) {
-        int n = nums.length;
         int ind = -1;
-        for(int i=n-2 ; i>=0 ; i--)
+        int n = nums.length;
+        for(int i=n-1 ; i>=1 ; i--)
         {
-            if(nums[i]<nums[i+1])
+            if(nums[i-1]<nums[i]) 
             {
-                ind = i;
+                ind = i-1;
                 break;
             }
         }
-
         if(ind!=-1)
         {
             for(int i=n-1 ; i>=0 ; i--)
@@ -38,7 +37,3 @@ class Solution {
         reverse(ind+1, n-1, nums);
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

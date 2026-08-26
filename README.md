@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [1021-remove-outermost-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -193,4 +194,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/rehan-rh/leetcode-solutions/tree/main/0704-binary-search/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1021-remove-outermost-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1021-remove-outermost-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 <!---LeetCode Topics End-->

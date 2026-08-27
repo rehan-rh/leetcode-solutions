@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/rehan-rh/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/rehan-rh/leetcode-solutions/tree/main/0118-pascals-triangle/) | Easy |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -243,4 +245,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
+| [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 <!---LeetCode Topics End-->

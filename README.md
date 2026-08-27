@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0205-isomorphic-strings](https://github.com/rehan-rh/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 ## Quicksort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/rehan-rh/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0796-rotate-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
@@ -223,4 +227,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0796-rotate-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 <!---LeetCode Topics End-->

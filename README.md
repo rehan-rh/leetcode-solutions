@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
 | [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/2220-minimum-bit-flips-to-convert-number/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |

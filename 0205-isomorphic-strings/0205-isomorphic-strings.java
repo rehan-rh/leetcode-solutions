@@ -1,38 +1,19 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-        int n1 = s.length();
-        int n2 = t.length();
-        if(n1 != n2) return false;
-        Map<Character, Character> map1 = new HashMap<>();
-        Map<Character, Character> map2 = new HashMap<>();
-        int i = 0;
-        while(i<n1)
+        Map<Character, Character> m1 = new HashMap<>();
+        Map<Character, Character> m2 = new HashMap<>();
+        if(s.length()!=t.length()) return false;
+        int n = s.length();
+        for(int i=0 ; i<n ; i++)
         {
             char c1 = s.charAt(i);
             char c2 = t.charAt(i);
-            if(map1.containsKey(c1))
-            {
-                if(map1.get(c1)!=c2) return false;
-            }
-            else
-            {
-                map1.put(c1, c2);
-            }
+            if(m1.containsKey(c1) && m1.get(c1)!=c2) return false;
+            else m1.put(c1, c2);
 
-            if(map2.containsKey(c2))
-            {
-                if(map2.get(c2)!=c1) return false;
-            }
-            else
-            {
-                map2.put(c2, c1);
-            }
-            i++;
+            if(m2.containsKey(c2) && m2.get(c2)!=c1) return false;
+            else m2.put(c2, c1);
         }
         return true;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

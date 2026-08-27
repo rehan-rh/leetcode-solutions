@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rehan-rh/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
+| [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
+| [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -249,4 +251,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->

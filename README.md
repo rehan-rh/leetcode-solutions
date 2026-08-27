@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/rehan-rh/leetcode-solutions/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0039-combination-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0048-rotate-image](https://github.com/rehan-rh/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0053-maximum-subarray](https://github.com/rehan-rh/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0054-spiral-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
@@ -238,4 +239,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0039-combination-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 <!---LeetCode Topics End-->

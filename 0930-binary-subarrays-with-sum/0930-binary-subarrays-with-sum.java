@@ -1,21 +1,21 @@
 class Solution {
-    public int f(int nums[], int goal)
+    int f(int nums[], int g)
     {
-        if(goal<0) return 0;
-        int sum=0;
+        if(g<0) return 0;
         int l = 0;
         int r = 0;
         int n = nums.length;
+        int sum = 0;
         int res = 0;
         while(r<n)
         {
             sum += nums[r];
-            while(sum>goal)
+            while(sum>g)
             {
                 sum -= nums[l];
                 l++;
             }
-            if(sum<=goal)
+            if(sum<=g)
             {
                 res += r-l+1;
             }
@@ -27,7 +27,3 @@ class Solution {
         return f(nums, goal)-f(nums, goal-1);
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

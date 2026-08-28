@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
+| [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/rehan-rh/leetcode-solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/rehan-rh/leetcode-solutions/tree/main/0704-binary-search/) | Easy |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
+| [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -172,11 +174,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 ## Quicksort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/rehan-rh/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 ## Bubble Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -237,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Trie
 | Problem Name | Difficulty |

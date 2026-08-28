@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0118-pascals-triangle](https://github.com/rehan-rh/leetcode-solutions/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rehan-rh/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0135-candy](https://github.com/rehan-rh/leetcode-solutions/tree/main/0135-candy/) | Hard |
 | [0136-single-number](https://github.com/rehan-rh/leetcode-solutions/tree/main/0136-single-number/) | Easy |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rehan-rh/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
+| [0135-candy](https://github.com/rehan-rh/leetcode-solutions/tree/main/0135-candy/) | Hard |
 | [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0860-lemonade-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0860-lemonade-change/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |

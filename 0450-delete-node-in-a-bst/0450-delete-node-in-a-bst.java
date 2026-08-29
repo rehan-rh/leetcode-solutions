@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    TreeNode suck(TreeNode root)
+    TreeNode suc(TreeNode root)
     {
         TreeNode curr = root.right;
         while(curr.left!=null)
@@ -24,18 +24,18 @@ class Solution {
         return curr;
     }
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root==null) return root;
+        if(root==null) return null;
         if(key<root.val) root.left = deleteNode(root.left, key);
         else if(key>root.val) root.right = deleteNode(root.right, key);
         else
         {
-            if(root.right==null) return root.left;
             if(root.left==null) return root.right;
+            if(root.right==null) return root.left;
             else
             {
-                TreeNode suck = suck(root);
-                root.val = suck.val;
-                root.right = deleteNode(root.right, suck.val);
+                TreeNode suc = suc(root);
+                root.val = suc.val;
+                root.right = deleteNode(root.right, suc.val);
             }
         }
         return root;

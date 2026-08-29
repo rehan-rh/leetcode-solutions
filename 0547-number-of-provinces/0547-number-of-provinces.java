@@ -2,18 +2,11 @@ class Solution {
     void bfs(List<List<Integer>> adj, int vis[], int s)
     {
         vis[s] = 1;
-        Queue<Integer> q = new ArrayDeque<>();
-        q.offer(s);
-        while(!q.isEmpty())
+        for(int u : adj.get(s))
         {
-            int v = q.poll();
-            for(int u : adj.get(v))
+            if(vis[u]!=1)
             {
-                if(vis[u]!=1)
-                {
-                    vis[u] = 1;
-                    q.offer(u);
-                }
+                bfs(adj, vis, u);
             }
         }
     }

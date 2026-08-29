@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0450-delete-node-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0450-delete-node-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->

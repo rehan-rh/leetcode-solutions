@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/rehan-rh/leetcode-solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/rehan-rh/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0062-unique-paths](https://github.com/rehan-rh/leetcode-solutions/tree/main/0062-unique-paths/) | Medium |
+| [0063-unique-paths-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/rehan-rh/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0118-pascals-triangle](https://github.com/rehan-rh/leetcode-solutions/tree/main/0118-pascals-triangle/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rehan-rh/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/rehan-rh/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/rehan-rh/leetcode-solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/rehan-rh/leetcode-solutions/tree/main/0057-insert-interval/) | Medium |
+| [0063-unique-paths-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0075-sort-colors](https://github.com/rehan-rh/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
 | [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/rehan-rh/leetcode-solutions/tree/main/0048-rotate-image/) | Medium |
 | [0054-spiral-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
+| [0063-unique-paths-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |

@@ -2,10 +2,11 @@ class Solution {
     int f(int ind, int t, int dp[][], int nums[])
     {
         if(t==0) return 1;
-        if(t<0) return 0;
         if(dp[ind][t]!=-1) return dp[ind][t];
         if(ind==0) return nums[0]==t?1:0;
-        int p = f(ind-1, t-nums[ind], dp, nums);
+        int p = 0;
+        if(nums[ind]<=t)
+        p = f(ind-1, t-nums[ind], dp, nums);
         int np = f(ind-1, t, dp, nums);
         return dp[ind][t]=Math.max(p, np);
     }

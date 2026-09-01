@@ -16,8 +16,23 @@ class Solution {
         for(int e:nums) sum+=e;
         if(sum%2==1) return false;
         int dp[][] = new int[n][sum/2+1];
-        for(int a[]:dp)
-        Arrays.fill(a, -1);
-        return f(n-1, sum/2, dp, nums)==1;
+        for(int i=0 ; i<n ; i++)
+        {
+            dp[i][0] = 1;
+        }
+        if(nums[0]<=sum/2)
+        dp[0][nums[0]] = 1;
+        for(int i=1 ; i<n ; i++)
+        {
+            for(int t=1 ; t<sum/2+1 ; t++)
+            {
+                int p = 0;
+                if(nums[i]<=t)
+                p = dp[i-1][t-nums[i]];
+                int np = dp[i-1][t];
+                dp[i][t] = Math.max(p, np);
+            }
+        }
+        return dp[n-1][sum/2]==1;
     }
 }

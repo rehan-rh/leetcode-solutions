@@ -20,7 +20,7 @@ class Solution {
         {
             dp[i][0] = 1;
         }
-        if(nums[0]<=sum/2)
+        if(nums[0]==sum/2)
         dp[0][nums[0]] = 1;
         for(int i=1 ; i<n ; i++)
         {

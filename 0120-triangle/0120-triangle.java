@@ -11,10 +11,19 @@ class Solution {
        
         int n = triangle.size();
         int dp[][] = new int[n][n];
-        for(int i[]:dp)
+        for(int i=0 ; i<triangle.get(n-1).size() ; i++)
         {
-            Arrays.fill(i, Integer.MAX_VALUE);
+            dp[n-1][i] = triangle.get(n-1).get(i);
         }
-        return f(0, 0, n, triangle, dp);
+        for(int i=n-2 ; i>=0 ; i--)
+        {
+            for(int j=i ; j>=0 ; j--)
+            {
+                int down = dp[i+1][j];
+                int dia = dp[i+1][j+1];
+                dp[i][j] = triangle.get(i).get(j)+Math.min(down, dia);
+            }
+        }
+        return dp[0][0];
     }
 }

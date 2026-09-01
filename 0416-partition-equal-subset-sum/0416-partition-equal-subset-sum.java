@@ -24,7 +24,7 @@ class Solution {
         dp[0][nums[0]] = 1;
         for(int i=1 ; i<n ; i++)
         {
-            for(int t=1 ; t<sum/2+1 ; t++)
+            for(int t=0 ; t<sum/2+1 ; t++)
             {
                 int p = 0;
                 if(nums[i]<=t)

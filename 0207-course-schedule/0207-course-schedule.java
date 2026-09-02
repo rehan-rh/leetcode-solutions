@@ -1,28 +1,24 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adj = new ArrayList<>();
+        int n = numCourses;
         for(int i=0 ; i<numCourses ; i++)
         {
             adj.add(new ArrayList<>());
         }
         int indegree[] = new int[numCourses];
-        for(int ar[] : prerequisites)
+        Queue<Integer> q = new ArrayDeque<>();
+        for(int arr[]:prerequisites)
         {
-            int a = ar[0];
-            int b = ar[1];
+            int a = arr[0];
+            int b = arr[1];
             adj.get(b).add(a);
             indegree[a]++;
         }
-
-        Queue<Integer> q = new ArrayDeque<>();
-        for(int i=0 ; i<numCourses ; i++)
+        for(int i=0 ; i<n ; i++)
         {
-            if(indegree[i]==0)
-            {
-                q.offer(i);
-            }
+            if(indegree[i]==0) q.offer(i);
         }
-
         int c = 0;
         while(!q.isEmpty())
         {
@@ -31,16 +27,10 @@ class Solution {
             for(int v:adj.get(u))
             {
                 indegree[v]--;
-                if(indegree[v]==0)
-                {
-                    q.offer(v);
-                }
+                if(indegree[v]==0) 
+                q.offer(v);
             }
         }
-        return c==numCourses;
+        return c==n;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/leethub-v4/bcilpkkbokcopmabingnndookdogmbna

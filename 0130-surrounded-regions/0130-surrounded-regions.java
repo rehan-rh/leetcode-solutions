@@ -1,28 +1,18 @@
-class pair
-{
-    int r;
-    int c;
-    pair(int r, int c)
-    {
-        this.r = r;
-        this.c = c;
-    }
-}
 class Solution {
-    void dfs(int r, int c, int vis[][], char a[][])
+    void bfs(int r, int c, char board[][], int vis[][])
     {
-        int n = vis.length;
-        int m = vis[0].length;
         vis[r][c] = 1;
-        int row[] = {0, -1, 0, 1};
-        int col[] = {-1, 0, 1, 0};
+        int n = board.length;
+        int m = board[0].length;
+        int row[] = {-1, 0, +1, 0};
+        int col[] = {0, +1, 0, -1};
         for(int i=0 ; i<4 ; i++)
         {
-            int nr = r+row[i];
-            int nc = c+col[i];
-            if(nr>=0 && nr<n && nc>=0 && nc<m && vis[nr][nc]==0 && a[nr][nc]=='O')
+            int nr = r + row[i];
+            int nc = c + col[i];
+            if(nr>=0 && nr<n && nc>=0 && nc<m && vis[nr][nc]==0 && board[nr][nc]=='O')
             {
-                dfs(nr, nc, vis, a);
+                bfs(nr, nc, board, vis);
             }
         }
     }
@@ -33,29 +23,36 @@ class Solution {
         for(int i=0 ; i<m ; i++)
         {
             if(vis[0][i]==0 && board[0][i]=='O')
-            dfs(0, i, vis, board);
+            {
+                bfs(0, i, board, vis);
+            }
+
+            if(vis[n-1][i]==0 && board[n-1][i]=='O')
+            {
+                bfs(n-1, i, board, vis);
+            }
         }
+
         for(int i=0 ; i<n ; i++)
         {
-            if(vis[i][m-1]==0 && board[i][m-1]=='O')
-            dfs(i, m-1, vis, board);
-        }
-        for(int i=m-1 ; i>=0 ; i--)
-        {
-            if(vis[n-1][i]==0 && board[n-1][i]=='O')
-            dfs(n-1, i, vis, board);
-        }
-        for(int i=n-1 ; i>=0 ; i--)
-        {
             if(vis[i][0]==0 && board[i][0]=='O')
-            dfs(i, 0, vis, board);
+            {
+                bfs(i, 0, board, vis);
+            }
+            if(vis[i][m-1]==0 && board[i][m-1]=='O')
+            {
+                bfs(i, m-1, board, vis);
+            }
         }
 
         for(int i=0 ; i<n ; i++)
         {
             for(int j=0 ; j<m ; j++)
             {
-                if(vis[i][j]==0) board[i][j]='X';
+                if(vis[i][j]!=1)
+                {
+                    board[i][j] = 'X';
+                }
             }
         }
     }

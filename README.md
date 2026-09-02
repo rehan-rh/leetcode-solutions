@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0207-course-schedule](https://github.com/rehan-rh/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
 | [0322-coin-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
+| [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/rehan-rh/leetcode-solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
+| [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
 | [0704-binary-search](https://github.com/rehan-rh/leetcode-solutions/tree/main/0704-binary-search/) | Easy |
 | [0860-lemonade-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0860-lemonade-change/) | Easy |
 | [0930-binary-subarrays-with-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -274,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0054-spiral-matrix/) | Medium |
 | [0063-unique-paths-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0064-minimum-path-sum/) | Medium |
+| [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/rehan-rh/leetcode-solutions/tree/main/0994-rotting-oranges/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |

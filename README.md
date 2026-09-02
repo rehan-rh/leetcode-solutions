@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0130-surrounded-regions](https://github.com/rehan-rh/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0200-number-of-islands](https://github.com/rehan-rh/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/rehan-rh/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0130-surrounded-regions](https://github.com/rehan-rh/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/rehan-rh/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/rehan-rh/leetcode-solutions/tree/main/0207-course-schedule/) | Medium |
 | [0322-coin-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/rehan-rh/leetcode-solutions/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
+| [0200-number-of-islands](https://github.com/rehan-rh/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0229-majority-element-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0229-majority-element-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
@@ -284,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0064-minimum-path-sum/) | Medium |
 | [0130-surrounded-regions](https://github.com/rehan-rh/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/rehan-rh/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0542-01-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/rehan-rh/leetcode-solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/rehan-rh/leetcode-solutions/tree/main/1020-number-of-enclaves/) | Medium |
@@ -386,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/rehan-rh/leetcode-solutions/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/rehan-rh/leetcode-solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/rehan-rh/leetcode-solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [1020-number-of-enclaves](https://github.com/rehan-rh/leetcode-solutions/tree/main/1020-number-of-enclaves/) | Medium |
 ## Graph Theory

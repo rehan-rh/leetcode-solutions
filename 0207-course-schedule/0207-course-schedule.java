@@ -8,10 +8,10 @@ class Solution {
         int indegree[] = new int[numCourses];
         for(int ar[] : prerequisites)
         {
-            int a = ar[1];
-            int b = ar[0];
-            adj.get(a).add(b);
-            indegree[b]++;
+            int a = ar[0];
+            int b = ar[1];
+            adj.get(b).add(a);
+            indegree[a]++;
         }
 
         Queue<Integer> q = new ArrayDeque<>();

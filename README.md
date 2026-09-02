@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/rehan-rh/leetcode-solutions/tree/main/0485-max-consecutive-ones/) | Easy |
+| [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0704-binary-search](https://github.com/rehan-rh/leetcode-solutions/tree/main/0704-binary-search/) | Easy |
 | [0860-lemonade-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0860-lemonade-change/) | Easy |
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0039-combination-sum/) | Medium |
 | [0078-subsets](https://github.com/rehan-rh/leetcode-solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0090-subsets-ii/) | Medium |
+| [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -381,10 +384,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0322-coin-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 ## 0-1 Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0494-target-sum/) | Medium |
 ## Complete Knapsack
 | Problem Name | Difficulty |
 | ------- | ------- |

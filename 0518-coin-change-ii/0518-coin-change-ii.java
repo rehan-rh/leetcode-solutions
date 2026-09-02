@@ -3,7 +3,8 @@ class Solution {
     {
         if(ind==0)
         {
-            if(t==0 || t%a[0]==0) return 1;
+            if(t==0 && a[0]==0) return 2;
+            if(t==0 || t%a[ind]==0) return 1;
             return 0;
         }
         if(dp[ind][t]!=-1) return dp[ind][t];

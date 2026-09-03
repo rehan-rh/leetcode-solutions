@@ -1,27 +1,23 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer> stack = new Stack<>();
-        for(int e : asteroids)
+        for(int e:asteroids)
         {
-            if(e>0) 
-            {
-                stack.push(e);
-            }
+            if(e>0) stack.push(e);
             else
             {
-                while(!stack.isEmpty() && stack.peek()>0 && stack.peek()<Math.abs(e))
+                int ne = Math.abs(e);
+                while(!stack.isEmpty() && stack.peek()>0 && stack.peek()<ne)
                 {
                     stack.pop();
                 }
-                if(!stack.isEmpty() && stack.peek()>0 && stack.peek()==Math.abs(e))
+                if(!stack.isEmpty() && stack.peek()>0 && stack.peek()==ne)
                 {
                     stack.pop();
                     continue;
                 }
-                if(!stack.isEmpty() && stack.peek()<0 || stack.isEmpty())
-                {
-                    stack.push(e);
-                }
+                if(stack.isEmpty() || stack.peek()<0)
+                stack.push(e);
             }
         }
         int n = stack.size();
@@ -33,7 +29,3 @@ class Solution {
         return res;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

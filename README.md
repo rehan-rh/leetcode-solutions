@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/rehan-rh/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0094-binary-tree-inorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0402-remove-k-digits](https://github.com/rehan-rh/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0735-asteroid-collision](https://github.com/rehan-rh/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/rehan-rh/leetcode-solutions/tree/main/0014-longest-common-prefix/) | Easy |
 | [0151-reverse-words-in-a-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0205-isomorphic-strings](https://github.com/rehan-rh/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
+| [0402-remove-k-digits](https://github.com/rehan-rh/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/rehan-rh/leetcode-solutions/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/rehan-rh/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0796-rotate-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/rehan-rh/leetcode-solutions/tree/main/0055-jump-game/) | Medium |
 | [0135-candy](https://github.com/rehan-rh/leetcode-solutions/tree/main/0135-candy/) | Hard |
+| [0402-remove-k-digits](https://github.com/rehan-rh/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0860-lemonade-change](https://github.com/rehan-rh/leetcode-solutions/tree/main/0860-lemonade-change/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
@@ -400,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/rehan-rh/leetcode-solutions/tree/main/0042-trapping-rain-water/) | Hard |
+| [0402-remove-k-digits](https://github.com/rehan-rh/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/0496-next-greater-element-i/) | Easy |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 ## Union-Find

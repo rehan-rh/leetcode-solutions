@@ -12,7 +12,25 @@ class Solution {
         int n = grid.length;
         int m = grid[0].length;
         int dp[][] = new int[n][m];
-        for(int a[]:dp) Arrays.fill(a, -1);
-        return f(n-1, m-1, dp, grid);
+        dp[0][0] = grid[0][0];
+        for(int r=0 ; r<n ; r++)
+        {
+            for(int c=0 ; c<m ; c++)
+            {
+                if(r==0 && c==0)
+                dp[r][c] = grid[0][0];
+                else
+                {
+                    int up = Integer.MAX_VALUE;
+                    if(r>0)
+                    up = dp[r-1][c];
+                    int left = Integer.MAX_VALUE;
+                    if(c>0)
+                    left = dp[r][c-1];
+                    dp[r][c] = grid[r][c] + Math.min(up, left);
+                }
+            }
+        }
+        return dp[n-1][m-1];
     }
 }

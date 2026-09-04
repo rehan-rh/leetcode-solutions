@@ -35,7 +35,7 @@ class Solution {
                 }
                 else
                 {
-                    al.addFirst(curr.val);
+                    al.add(0, curr.val);
                 }
             }
             f = f==0?1:0;

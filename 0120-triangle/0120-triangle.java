@@ -3,7 +3,7 @@ class Solution {
     {
         int n = dp.length;
         if(r==n-1) return t.get(r).get(c);
-        if(dp[r][c]!=Integer.MIN_VALUE) return dp[r][c];
+        if(dp[r][c]!=Integer.MAX_VALUE) return dp[r][c];
         int d = f(r+1, c, dp, t);
         int dl = f(r+1, c+1, dp, t);
         return dp[r][c] = t.get(r).get(c)+Math.min(d, dl);
@@ -11,7 +11,19 @@ class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         int dp[][] = new int[n][n];
-        for(int a[]:dp) Arrays.fill(a, Integer.MIN_VALUE);
-        return f(0, 0, dp, triangle);
+        for(int i=0 ; i<n ; i++)
+        {
+            dp[n-1][i] = triangle.get(n-1).get(i);
+        }
+        for(int r=n-2 ; r>=0 ; r--)
+        {
+            for(int c=r ; c>=0 ; c--)
+            {
+                int d = dp[r+1][c];
+                int dl = dp[r+1][c+1];
+                dp[r][c] = triangle.get(r).get(c)+Math.min(d, dl);
+            }
+        }
+        return dp[0][0];
     }
 }

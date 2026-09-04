@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0450-delete-node-in-a-bst/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/rehan-rh/leetcode-solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0450-delete-node-in-a-bst/) | Medium |
+| [0543-diameter-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
@@ -147,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/rehan-rh/leetcode-solutions/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0543-diameter-of-binary-tree](https://github.com/rehan-rh/leetcode-solutions/tree/main/0543-diameter-of-binary-tree/) | Easy |
 ## Binary Lifting
 | Problem Name | Difficulty |
 | ------- | ------- |

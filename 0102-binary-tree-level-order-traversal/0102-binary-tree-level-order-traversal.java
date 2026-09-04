@@ -19,16 +19,16 @@ class Solution {
         if(root==null) return ml;
         Queue<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
-        while( !q.isEmpty())
+        while(!q.isEmpty())
         {
-            int size = q.size();
+            int s = q.size();
             List<Integer> al = new ArrayList<>();
-            for(int i=0 ; i<size ; i++)
+            for(int i=0 ; i<s ; i++)
             {
                 TreeNode curr = q.poll();
+                al.add(curr.val);
                 if(curr.left!=null) q.offer(curr.left);
                 if(curr.right!=null) q.offer(curr.right);
-                al.add(curr.val);
             }
             ml.add(al);
         }

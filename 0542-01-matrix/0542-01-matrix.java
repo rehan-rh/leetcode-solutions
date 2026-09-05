@@ -2,12 +2,10 @@ class pair
 {
     int r;
     int c;
-    int d;
-    pair(int r, int c, int d)
+    pair(int r, int c)
     {
         this.r = r;
         this.c = c;
-        this.d = d;
     }
 }
 class Solution {
@@ -25,7 +23,7 @@ class Solution {
                 {
                     vis[i][j] = 1;
                     dis[i][j] = 0;
-                    q.offer(new pair(i, j, 0));
+                    q.offer(new pair(i, j));
                 }
             }
         }
@@ -36,7 +34,7 @@ class Solution {
             pair p = q.poll();
             int r = p.r;
             int c = p.c;
-            int d = p.d;
+            int d = dis[r][c];
             for(int i=0 ; i<4 ; i++)
             {
                 int nr = row[i]+r;
@@ -45,7 +43,7 @@ class Solution {
                 {
                     vis[nr][nc] = 1;
                     dis[nr][nc] = d+1;
-                    q.offer(new pair(nr, nc, d+1));
+                    q.offer(new pair(nr, nc));
                 }
             }
         }

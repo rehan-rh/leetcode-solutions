@@ -11,22 +11,17 @@
 class Solution {
     public ListNode oddEvenList(ListNode head) {
         if(head==null || head.next==null) return head;
+        ListNode eh = head.next;
         ListNode odd = head;
-        ListNode evenHead = head.next;
-        ListNode even = evenHead;
+        ListNode even = eh;
         while(even!=null && even.next!=null)
         {
             odd.next = even.next;
             odd = odd.next;
-
             even.next = odd.next;
             even = even.next;
         }
-        odd.next = evenHead;
+        odd.next = eh;
         return head;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

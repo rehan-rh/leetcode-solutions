@@ -11,8 +11,6 @@
 class Solution {
     ListNode middle(ListNode head)
     {
-        if(head==null || head.next==null)
-        return head;
         ListNode slow = head;
         ListNode fast = head;
         ListNode prev = null;
@@ -26,47 +24,37 @@ class Solution {
     }
     public ListNode sortList(ListNode head) {
         if(head==null || head.next==null) return head;
-
         ListNode mid = middle(head);
-        ListNode first = head;
-        ListNode second = mid.next;
+        ListNode fh = head;
+        ListNode sh = mid.next;
         mid.next = null;
-        first = sortList(first);
-        second = sortList(second);
-        return merge(first, second);
+        fh = sortList(fh);
+        sh = sortList(sh);
+        return merge(fh, sh);
+        
     }
-
-    ListNode merge(ListNode left, ListNode right)
+    ListNode merge(ListNode head1, ListNode head2)
     {
         ListNode dummyHead = new ListNode(0);
         ListNode dummy = dummyHead;
-        while(left!=null && right!=null)
+        ListNode curr1 = head1;
+        ListNode curr2 = head2;
+        while(curr1!=null && curr2!=null)
         {
-            if(left.val<=right.val)
+            if(curr1.val<curr2.val)
             {
-                dummy.next = left;
-                left = left.next;
-                dummy = dummy.next;
+                dummy.next = curr1;
+                curr1 = curr1.next;
             }
             else
             {
-                dummy.next = right;
-                right = right.next;
-                dummy = dummy.next;
+                dummy.next = curr2;
+                curr2 = curr2.next;
             }
+            dummy = dummy.next;
         }
-        if(left!=null)
-        {
-            dummy.next = left;
-        }
-        if(right!=null)
-        {
-            dummy.next = right;
-        }
+        if(curr1!=null) dummy.next = curr1;
+        if(curr2!=null) dummy.next = curr2;
         return dummyHead.next;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

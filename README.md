@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/rehan-rh/leetcode-solutions/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0094-binary-tree-inorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/rehan-rh/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0402-remove-k-digits](https://github.com/rehan-rh/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/rehan-rh/leetcode-solutions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0735-asteroid-collision](https://github.com/rehan-rh/leetcode-solutions/tree/main/0735-asteroid-collision/) | Medium |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/rehan-rh/leetcode-solutions/tree/main/0283-move-zeroes/) | Easy |
 | [0455-assign-cookies](https://github.com/rehan-rh/leetcode-solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rehan-rh/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -410,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/rehan-rh/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/rehan-rh/leetcode-solutions/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Floyd's Cycle Finding Algorithm

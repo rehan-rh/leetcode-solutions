@@ -11,17 +11,13 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode ptrA = headA;
-        ListNode ptrB = headB;
-        while(ptrA!=ptrB)
+        ListNode p1 = headA;
+        ListNode p2 = headB;
+        while(p1!=p2)
         {
-            ptrA = ptrA==null ? headB : ptrA.next;
-            ptrB = ptrB==null ? headA  : ptrB.next;
+            p1 = p1==null?headA:p1.next;
+            p2 = p2==null?headB:p2.next;
         }
-        return ptrA;
+        return p1;
     }
 }
-
-// Synced seamlessly with LeetHub Pro
-// Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
-// Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna

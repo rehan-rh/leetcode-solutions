@@ -14,13 +14,6 @@
  * }
  */
 class Solution {
-    void f(TreeNode root, List<Integer> al)
-    {
-        if(root==null) return ;
-        al.add(root.val);
-        f(root.left, al);
-        f(root.right, al);
-    }
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> al = new ArrayList<>();
         if(root==null) return al;

@@ -26,11 +26,10 @@ class Solution {
             for(int i=1 ; i<=size ; i++)
             {
                 TreeNode curr = q.poll();
-                rightMost = curr.val;
+                if(i==size) al.add(curr.val);
                 if(curr.left!=null) q.offer(curr.left);
                 if(curr.right!=null) q.offer(curr.right);
             }
-            al.add(rightMost);
         }
         return al;
     }

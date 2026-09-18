@@ -1,12 +1,19 @@
 class Solution {
     void dfs(int s, List<List<Integer>> adj, int[] vis)
     {
+        Queue<Integer> q = new ArrayDeque<>();
+        q.offer(s);
         vis[s] = 1;
-        for(int v : adj.get(s))
+        while(!q.isEmpty())
         {
-            if(vis[v]!=1)
+            int u = q.poll();
+            for(int v : adj.get(u))
             {
-                dfs(v, adj, vis);
+                if(vis[v]!=1)
+                {
+                    vis[v] = 1;
+                    q.offer(v);
+                }
             }
         }
     }

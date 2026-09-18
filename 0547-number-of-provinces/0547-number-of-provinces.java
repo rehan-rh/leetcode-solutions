@@ -1,12 +1,12 @@
 class Solution {
-    void bfs(List<List<Integer>> adj, int vis[], int s)
+    void dfs(int s, List<List<Integer>> adj, int[] vis)
     {
         vis[s] = 1;
-        for(int u : adj.get(s))
+        for(int v : adj.get(s))
         {
-            if(vis[u]!=1)
+            if(vis[v]!=1)
             {
-                bfs(adj, vis, u);
+                dfs(v, adj, vis);
             }
         }
     }
@@ -28,6 +28,7 @@ class Solution {
                 }
             }
         }
+
         int vis[] = new int[n];
         int c = 0;
         for(int i=0 ; i<n ; i++)
@@ -35,7 +36,7 @@ class Solution {
             if(vis[i]!=1)
             {
                 c++;
-                bfs(adj, vis, i);
+                dfs(i, adj, vis);
             }
         }
         return c;

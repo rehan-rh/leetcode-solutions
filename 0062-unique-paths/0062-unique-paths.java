@@ -11,23 +11,22 @@ class Solution {
     public int uniquePaths(int m, int n) {
         int dp[][] = new int[m][n];
         dp[0][0] = 1;
-        for(int r = 0 ; r<m ; r++)
+        for(int r=0 ; r<m ; r++)
         {
-            for(int c = 0 ; c<n ; c++)
+            for(int c=0 ; c<n ; c++)
             {
                 if(r==0 && c==0)
-                {
-                    dp[0][0] = 1;
-                }
+                dp[r][c] = 1;
                 else
                 {
-                    int top = 0;
-                    if(r>0) 
-                    top = dp[r-1][c];
-                    int left = 0;
+                    int t = 0;
+                    if(r>0)
+                    t = dp[r-1][c];
+                    int l = 0;
                     if(c>0)
-                    left = dp[r][c-1];
-                    dp[r][c] = top + left;
+                    l = dp[r][c-1];
+
+                    dp[r][c] = t+l;
                 }
             }
         }

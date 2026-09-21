@@ -17,7 +17,30 @@ class Solution {
     public int change(int amount, int[] coins) {
         int n = coins.length;
         int dp[][] = new int[n][amount+1];
-        for(int a[]:dp) Arrays.fill(a, -1);
-        return f(n-1, amount, dp, coins);
+        for(int i=0 ; i<=amount ; i++)
+        {
+            if(coins[0]==0)
+            dp[0][0] = 2;
+            else if(i%coins[0]==0)
+            {
+                dp[0][i] = 1;
+            }
+            else
+            {
+                dp[0][i] = 0;
+            }
+        }
+        for(int ind = 1 ; ind<n ; ind++)
+        {
+            for(int a=0 ; a<=amount ; a++)
+            {
+                int p = 0;
+                if(coins[ind]<=a)
+                p = dp[ind][a-coins[ind]];
+                int np = dp[ind-1][a];
+                dp[ind][a] = p+np;
+            }
+        }
+        return dp[n-1][amount];
     }
 }

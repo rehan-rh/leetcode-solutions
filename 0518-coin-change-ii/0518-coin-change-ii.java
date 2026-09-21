@@ -3,7 +3,7 @@ class Solution {
     {
         if(ind==0)
         {
-            if(a[0]==0) return 2;
+            if(amt==0 && a[0]==0) return 2;
             if(amt==0 || amt%a[0]==0) return 1;
             return 0;
         }
@@ -19,7 +19,7 @@ class Solution {
         int dp[][] = new int[n][amount+1];
         for(int i=0 ; i<=amount ; i++)
         {
-            if(coins[0]==0)
+            if(amount==0 && coins[0]==0)
             dp[0][0] = 2;
             else if(i%coins[0]==0)
             {

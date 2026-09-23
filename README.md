@@ -283,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/rehan-rh/leetcode-solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0189-rotate-array](https://github.com/rehan-rh/leetcode-solutions/tree/main/0189-rotate-array/) | Medium |
 | [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
+| [0326-power-of-three](https://github.com/rehan-rh/leetcode-solutions/tree/main/0326-power-of-three/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/rehan-rh/leetcode-solutions/tree/main/0044-wildcard-matching/) | Hard |
 | [0231-power-of-two](https://github.com/rehan-rh/leetcode-solutions/tree/main/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/rehan-rh/leetcode-solutions/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0326-power-of-three](https://github.com/rehan-rh/leetcode-solutions/tree/main/0326-power-of-three/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |

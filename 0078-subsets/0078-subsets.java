@@ -13,7 +13,8 @@ class Solution {
     }
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ml = new ArrayList<>();
-        f(0, new ArrayList<>(), ml, nums);
+        List<Integer> al = new ArrayList<>();
+        f(0, al, ml, nums);
         return ml;
     }
 }

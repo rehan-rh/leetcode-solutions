@@ -10,8 +10,19 @@ class Solution {
         return dp[ind] = l+r;
     }
     public int climbStairs(int n) {
+        if(n<=2) return n;
         int dp[] = new int[n+1];
-        Arrays.fill(dp, -1);
-        return f(n, dp);
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 2;
+        for(int ind=3 ; ind<=n ;ind++)
+        {
+            int l = dp[ind-1];
+            int r = 0;
+            if(ind>1)
+            r = dp[ind-2];
+            dp[ind] = l+r;
+        }
+        return dp[n];
     }
 }

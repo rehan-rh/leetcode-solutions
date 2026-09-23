@@ -1,20 +1,11 @@
 class Solution {
-    void bfs(int s, List<List<Integer>> adj, int vis[])
+    void dfs(int s, List<List<Integer>> adj, int vis[])
     {
-        Queue<Integer> q = new ArrayDeque<>();
         vis[s] = 1;
-        q.offer(s);
-        while(!q.isEmpty())
+        for(int v : adj.get(s))
         {
-            int u = q.poll();
-            for(int v : adj.get(u))
-            {
-                if(vis[v]==0)
-                {
-                    vis[v] = 1;
-                    q.offer(v);
-                }
-            }
+            if(vis[v]==0)
+            dfs(v, adj, vis);
         }
     }
     public int findCircleNum(int[][] isConnected) {
@@ -43,7 +34,7 @@ class Solution {
             if(vis[i]==0)
             {
                 c++;
-                bfs(i, adj, vis);
+                dfs(i, adj, vis);
             }
         }
         return c;

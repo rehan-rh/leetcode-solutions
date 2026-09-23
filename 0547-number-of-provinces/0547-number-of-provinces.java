@@ -1,15 +1,15 @@
 class Solution {
-    void dfs(int s, List<List<Integer>> adj, int[] vis)
+    void bfs(int s, List<List<Integer>> adj, int vis[])
     {
         Queue<Integer> q = new ArrayDeque<>();
-        q.offer(s);
         vis[s] = 1;
+        q.offer(s);
         while(!q.isEmpty())
         {
             int u = q.poll();
             for(int v : adj.get(u))
             {
-                if(vis[v]!=1)
+                if(vis[v]==0)
                 {
                     vis[v] = 1;
                     q.offer(v);
@@ -40,10 +40,10 @@ class Solution {
         int c = 0;
         for(int i=0 ; i<n ; i++)
         {
-            if(vis[i]!=1)
+            if(vis[i]==0)
             {
                 c++;
-                dfs(i, adj, vis);
+                bfs(i, adj, vis);
             }
         }
         return c;

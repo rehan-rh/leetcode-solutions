@@ -1,19 +1,19 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        int n = nums.length;
-        List<List<Integer>> ml = new ArrayList<>();
-        for(int i=0 ; i<(1<<n) ; i++)
+    void f(int ind, List<Integer> al, List<List<Integer>> ml, int a[])
+    {
+        if(ind==a.length)
         {
-            List<Integer> al = new ArrayList<>();
-            for(int j=0 ; j<n ; j++)
-            {
-                if((i&(1<<j))!=0)
-                {
-                    al.add(nums[j]);
-                }
-            }
-            ml.add(al);
+            ml.add(new ArrayList<>(al));
+            return;
         }
+        al.add(a[ind]);
+        f(ind+1, al, ml, a);
+        al.remove(al.size()-1);
+        f(ind+1, al, ml, a);
+    }
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> ml = new ArrayList<>();
+        f(0, new ArrayList<>(), ml, nums);
         return ml;
     }
 }

@@ -1,9 +1,13 @@
 class Solution {
-    int f(int ind, int[] dp)
+    int f(int ind, int dp[])
     {
         if(ind<=2) return ind;
         if(dp[ind]!=-1) return dp[ind];
-        return dp[ind] = f(ind-1, dp)+f(ind-2, dp);
+        int l = f(ind-1, dp);
+        int r = 0;
+        if(ind>1)
+        r = f(ind-2, dp);
+        return dp[ind] = l+r;
     }
     public int climbStairs(int n) {
         int dp[] = new int[n+1];

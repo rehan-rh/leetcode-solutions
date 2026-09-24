@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/rehan-rh/leetcode-solutions/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/rehan-rh/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
+| [1143-longest-common-subsequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rehan-rh/leetcode-solutions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 ## DP on Trees
 | Problem Name | Difficulty |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/0796-rotate-string/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
+| [1143-longest-common-subsequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/rehan-rh/leetcode-solutions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rehan-rh/leetcode-solutions/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
 | [1903-largest-odd-number-in-string](https://github.com/rehan-rh/leetcode-solutions/tree/main/1903-largest-odd-number-in-string/) | Easy |
@@ -559,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/rehan-rh/leetcode-solutions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
+| [1143-longest-common-subsequence](https://github.com/rehan-rh/leetcode-solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |

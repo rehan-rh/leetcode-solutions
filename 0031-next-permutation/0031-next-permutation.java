@@ -15,7 +15,7 @@ class Solution {
         int n = nums.length;
         for(int i=n-1 ; i>=1 ; i--)
         {
-            if(nums[i-1]<nums[i]) 
+            if(nums[i]>nums[i-1])
             {
                 ind = i-1;
                 break;

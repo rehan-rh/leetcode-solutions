@@ -5,7 +5,7 @@ class Solution {
         Arrays.sort(nums);
         for(int i=0 ; i<n ; i++)
         {
-            if(i>0 && nums[i-1]==nums[i]) continue;
+            if(i>0 && nums[i]==nums[i-1]) continue;
             int j = i+1;
             int k = n-1;
             while(j<k)
@@ -22,10 +22,10 @@ class Solution {
                 else
                 {
                     ml.add(Arrays.asList(nums[i], nums[j], nums[k]));
-                    k--;
                     j++;
-                    while(j<k && nums[j-1]==nums[j]) j++;
-                    while(j<k && nums[k+1]==nums[k]) k--;
+                    k--;
+                    while(j<k && nums[j]==nums[j-1]) j++;
+                    while(j<k && nums[k]==nums[k+1]) k--;
                 }
             }
         }
